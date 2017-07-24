@@ -1,0 +1,34 @@
+.logo{
+  display: block;
+  margin: auto;
+  max-height: 170px;
+  position: relative;
+  top: 420px;
+/*  left: 925px; */
+}
+
+.form-position{
+  display: block;
+  margin: auto;
+  position: relative;
+
+
+}
+input{
+
+  width: 40%;
+  height: 60px;
+  padding: 20px 20px;
+  margin: 8px 0;
+  top: 679px;
+  left: 700px;
+  box-sizing: border-box;
+  position: relative;
+  border-color: rgba(4, 4, 4, 0.18);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1000px-Google_mic.svg.png);
+  background-repeat: no-repeat;
+  background-size: 19px;
+  background-position: 97% 44%;
+  font-size: 20px;
+
+}
