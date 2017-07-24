@@ -3,25 +3,25 @@
   margin: auto;
   max-height: 170px;
   position: relative;
-  top: 420px;
+  top: 300px;
 /*  left: 925px; */
 }
 
 .form-position{
   display: block;
   margin: auto;
-  position: relative;
+  position: static;
 
 
 }
-input{
+.search-bar{
 
   width: 40%;
   height: 60px;
   padding: 20px 20px;
   margin: 8px 0;
-  top: 679px;
-  left: 700px;
+  top: 580px;
+  left: 708px;
   box-sizing: border-box;
   position: relative;
   border-color: rgba(4, 4, 4, 0.18);
@@ -32,3 +32,26 @@ input{
   font-size: 20px;
 
 }
+
+.buttons{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  position: absolute;
+  top: 706px;
+  left: 1012px;
+}
+.search-buttons{
+
+  margin: auto;
+  padding: 10px 15px;
+  background-color: rgba(191, 191, 191, 0.37);
+  text-decoration: none;
+  text-align: center;
+  color: rgba(76, 76, 76, 0.61);
+  border-radius: 4.0px
+}
+.search-buttons:hover{
+  color:black;
+  border: 0.5px solid rgba(191,191,191,0.37);
+  }
