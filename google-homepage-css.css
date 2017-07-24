@@ -2,9 +2,9 @@
   display: block;
   margin: auto;
   max-height: 170px;
-  position: relative;
-  top: 300px;
-/*  left: 925px; */
+  position: fixed;
+  top: 226px;
+  left: 958px;
 }
 
 .form-position{
@@ -16,14 +16,14 @@
 }
 .search-bar{
 
-  width: 40%;
+  width: 960px;
   height: 60px;
   padding: 20px 20px;
   margin: 8px 0;
-  top: 580px;
-  left: 708px;
+  top: 418px;
+  left: 727px;
   box-sizing: border-box;
-  position: relative;
+  position: fixed;
   border-color: rgba(4, 4, 4, 0.18);
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1000px-Google_mic.svg.png);
   background-repeat: no-repeat;
@@ -37,9 +37,9 @@
   font-size: 20px;
   font-family: Arial;
   font-weight: bold;
-  position: absolute;
-  top: 706px;
-  left: 1012px;
+  position: fixed;
+  top: 510px;
+  left: 1022px;
 }
 .search-buttons{
 
@@ -55,3 +55,80 @@
   color:black;
   border: 0.5px solid rgba(191,191,191,0.37);
   }
+
+
+.top-nav-bar{
+  display: inline;
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.bli{
+  color: rgba(49, 45, 45, 0.84);
+  font-family: Arial;
+  font-weight: 1000px;
+  letter-spacing: -0.3px;
+  padding-top: 0px;
+  text-decoration: none;\
+  position: relative;
+  bottom: 5px;
+}
+.bot-nav-bar{
+  display:inline;
+
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  bottom: 0px;
+  position: fixed;
+  border: 0px solid black;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 4%;
+  right: 0px
+}
+.bot-nav-list-l{
+  font-weight: bold;
+  float: left;
+  padding-left: 30px;
+  padding-right: 0px;
+  padding-top: 15px;
+  
+
+}
+
+.bot-nav-list-r{
+  font-weight: bold;
+  float: right;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+
+.top-nav-list{
+  font-weight: bold;
+  float: right;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 15px
+
+}
+
+.tli{
+    color: rgba(49, 45, 45, 0.84);
+    font-family: Arial;
+    font-weight: 1000px;
+    letter-spacing: -0.3px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.squares-icon{
+  max-height: 25px;
+}
+
+.bell-icon{
+  max-height: 25px;
+}
