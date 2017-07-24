@@ -95,7 +95,7 @@
   padding-left: 30px;
   padding-right: 0px;
   padding-top: 15px;
-  
+
 
 }
 
@@ -107,6 +107,11 @@
   padding-right: 30px;
 }
 
+.bot-nav-list-l:hover{
+  text-decoration: underline;}
+
+.bot-nav-list-r:hover{
+  text-decoration: underline;}
 
 .top-nav-list{
   font-weight: bold;
@@ -115,6 +120,10 @@
   padding-right: 10px;
   padding-top: 15px
 
+}
+
+.tli:hover{
+  text-decoration: underline;
 }
 
 .tli{
